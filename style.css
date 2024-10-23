@@ -1,0 +1,53 @@
+header, footer{
+    background-color: darkgreen;
+    color: white;
+    padding: 15px;
+}
+header{
+    font-size: 38px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+footer{
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+padding-top: 10px;
+}
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.container{ /*This is used to get elements inline*/
+    display: flex;
+    align-items: center;
+}
+
+.container #border{ /*This is used to keep the table from falling behind the image as the screen gets narrower*/
+    margin-right: 250px;
+    border: 1px solid black;
+}
+
+.container img { /*This is used to keep it bound to right side of window*/
+    position: absolute;
+    right: 10%;
+}
+
+#border td {
+    border: 1px solid black;
+    padding: 10px;
+}
+#border th {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+h1 + p{
+    border-top: darkgreen solid 2px;
+    border-bottom: darkgreen solid 2px;
+    padding: 2%;
+}
